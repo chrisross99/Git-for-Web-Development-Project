@@ -1,0 +1,82 @@
+1. What is Semantic HTML? 
+It gives meaning and organization to tags in HTML
+    2. What is HTML used for? 
+    It is a language that is used and read by computers to output data on a browser
+    3. What is an attribute and where do we put it? 
+    Attrinutes are put at the beginning of a tag and are used to give elements attributes
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used to denote the main heading on a web page and should only be used one time.
+    5. Name two tags that have required attributes
+    <a> and <img>
+    6. What do we put in the head of our HTML document? 
+    <head>
+    7. What is an id? 
+    an ID is used to reference a section of code and give it special attributes
+    8. What elements can I add an id to? 
+    Any elements
+    9. How many times can I use the same id on a page? 
+    One time
+    10. What is a class? 
+    A class is similar to an id but can be used multiple times
+    11. What elements can I add a class to? 
+    Any element
+    12. How many times can I use the same class on a page? 
+    Unlimited
+    13. How do I get my link to open in a new tab?
+    use a blank attribute
+    14. What is the alt attribute in the image tag used for? 
+    To display text if an image can not be loaded in a browser
+    15. How do I reference an id?
+    With a # and the id name
+    16. What is the difference between a section and a div
+    A section is semantic while a div is not.
+    17. What is CSS used for? 
+    To add style to basic HTML elements
+    18. How to we select an element? Example - every h2 on the page
+    Css selectors. h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used to modify multiple elements, and id styles only one. Styling multiple menu items may use a class while id may be used for something like a header that appears only once on a page.
+    20. How do we select classes in CSS?
+    css selectors. ex: .class {}
+    21. How do we select a p element with a single class of “human””?
+    .human {}
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selctor is used to select all elements that are a child of a certain element. This is useful
+    when wanting to change an element within a <div> tag but not on the entire page.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar:link {}
+    24. What is a pseudo selector?
+    A pseudo selector selects elements that are in a specified state
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, text-transform: lowercase, text-transform: Capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+    .div {
+        border: dotted;
+        border-color: black;
+    }
+    29. How do I select everything on the page? 
+    By using the * selector
+    30. How do I write a comment in CSS?
+    By using /*this is an example comment*/
+    31. How do I find out what file I am in, when I am using the command line? 
+    by using git status
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    by using the ls command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    You can remove a file by using git rm. You have to be careful with this because it removes the file from
+    the local directory.
+    34. Why should I use version control? 
+    Version control should be used because it allows you to see what changes have been made and allows you to quickly
+    pull up these changes in case there is a bug in the code.
+    35. How often should I commit to github?
+    Whenever a significant change is made it should be committed along with detailed notes.
+    36. What is the command we would use to push our repo up to github? 
+    git push
+    37. Walk me through Lambda's git flow.
+    First you should fork the fit, then it should be cloned within git. From there you should cd into a new directory
+    and create a new branch using 'firstName-lastName'. Then, after making your changes, you should git add and commit.
+    Once finished you should push your work to GitHub and submit a pull request.
